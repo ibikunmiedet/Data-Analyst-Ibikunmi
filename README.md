@@ -529,4 +529,8 @@ Customizing the metric line graph, we selected the range of the last 3 months an
 Cloudtrail is also another service that was used to monitor the users, and parties that have access to the account and use data or information in the account. A new trail called hou-curr-iss-tra-edet was created to monitor, log, and record all activities of users in the account.
 
 # Course Completion Badge
+https://www.credly.com/badges/aa311dd4-a642-43df-8d0a-3d679a9bc46c/public_url
+
 https://www.credly.com/badges/aa311dd4-a642-43df-8d0a-3d679a9bc46c
+
+
