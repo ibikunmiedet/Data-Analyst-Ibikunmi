@@ -6,7 +6,8 @@ Project Description: Exploratory Data Analysis (EDA) on City of Vancouver Rental
 Project Title: The Vancouver Rental Standards and Current Issues Data Analysis using AWS Cloud Services
   
 Objective: The main goal of the project is to effectively analyze the City of Vancouver’s -rental standards dataset, in order to identify issues like the total outstanding housing unit payments my business operators in the metro-Vancouver area, identify each business key location addresses, unique business URL, total building units occupied by each business by coordinate points. This will provide information to improve housing standards, regulate rental prices and improve policy making in the city.
-- Dataset: The City of Vancouver Dataset provides insight using some specific variables, including details such as:  
+
+Dataset: The City of Vancouver Dataset provides insight using some specific variables, including details such as:  
 • Name of Business Operator
 •	Detailed Business URL
 •	Street Number of Business 
@@ -44,85 +45,163 @@ Tools and Technologies:
 Deliverables:
 •	Report summary on common violators and rental issues 
 •	Interactive insights showcasing rental standards and trending issues
-Project 2: Descriptive Analysis (COV)
+
+# Project 2: Descriptive Analysis (COV)
 Project Description: Descriptive Analysis of City of Vancouver Rental Standards- Current Issues Dataset
-Project Title: The Vancouver Rental Standards and Current Issues Descriptive Analysis using AWS Cloud Services 
+
+Project Title: The Vancouver Rental Standards and Current Issues Descriptive Analysis using AWS Cloud Services
+
 Objective: The main goal of the project is to effectively analyze the City of Vancouver’s rental standards dataset for the provision of business operators' rental conditions and understand statistical insights into total units and outstanding violations of business locations.
+
 Dataset: The City of Vancouver Dataset provides insight using some specific variables, including details such as:
-•	Name of Business Operator 
+
+• Name of Business Operator 
+
 •	Detailed Business URL
-•	Street Number of Business 
+
+•	Street Number of Business
+
 •	Street Name 
+
 •	Total Units occupied by the business
+
 •	Total Outstanding 
+
 •	Geometric Location (Coordinates) 
+
 •	Geo Local Area location
+
 •	Geo Point 2D Coordinates
+
+
 Methodology:
+
 1-	Data Cataloging
+
 2-	Data Visualization
+
 3-	Data Summarization
+
 4-	Business Question SQL Queries
+
+
 Tools and Technologies:
+
 •	AWS S3 for storage 
+
 •	AWS Glue 
+
 •	AWS Glue DataBrew
+
 •	Amazon Athena
+
+
 Deliverables:
-•	Summary of the rental conditions of businesses across various geo-local areas 
+
+•	Summary of the rental conditions of businesses across various geo-local areas
+
 •	Reports on the trends in issues businesses face in the City of Vancouver 
-Project 3: Data Wrangling (COV)
+
+
+# Project 3: Data Wrangling (COV)
 Project Description: Data Wrangling for City of Vancouver Rental Standards- Current Issues Dataset
+
 Project Title: The Vancouver Rental Standards and Current Issues Data Wrangling using AWS Cloud Services 
+
 Objective: The primary goal of this project is to clean, transform and adequately prepare the rental standards and current issues dataset for further analysis.
+
 Dataset: The City of Vancouver Dataset provides insight using some specific variables, including details such as:
+
 •	Name of Business Operator 
+
 •	Detailed Business URL
+
 •	Street Number of Business 
+
 •	Street Name 
+
 •	Total Units occupied by the business
+
 •	Total Outstanding 
+
 •	Geometric Location (Coordinates) 
+
 •	Geo Local Area location
+
 •	Geo Point 2D Coordinates
+
+
 Methodology:
+
 1-	Data Ingestion: Extracting the data and loading the data from the AWS S3 bucket.
+
 2-	Data Cleaning: All inconsistent formatting, data faults, and issues like missing values or null values.
+
 3-	Lifecycle configuration- based on the frequency of access to the datasets. Standard access was chosen.
+
 4-	Data Cleaning Cost Analysis: Insight all how much the cleaning process cost the city.
+
+
 Tools and Technologies:
+
 •	AWS Glue DataBrew 
+
 •	Amazon EC2 Instances 
+
 
 Deliverables:
 •	A cleaned and transformed rental standards and current issues dataset ready for analysis, available in a suitable format (e.g., CSV, Excel Database).
+
 •	A comprehensive report documenting the data wrangling process, including challenges encountered, methods employed, and final dataset characteristics.
 
-Project 4: Data Quality Control (COV)
+
+# Project 4: Data Quality Control (COV)
 Project Description: Data Quality Control Initiative for City of Vancouver Rental Standards- Current Issues Dataset
+
 Project Title: Implementation of Data Quality Control Measures at the City of Vancouver Data Center Portal to ensure confidentiality, adequate protection, and integrity of the data.
+
 Objective: The primary objective of this project is to establish a comprehensive Data Quality Control (DQC) framework for the City of Vancouver, ensuring that it is accurate, reliable and valid data used in all analysis.
+
 Dataset: The City of Vancouver Dataset provides insight using some specific variables, including details such as:
+
 •	Name of Business Operator 
+
 •	Detailed Business URL
+
 •	Street Number of Business 
+
 •	Street Name 
+
 •	Total Units occupied by the business
+
 •	Total Outstanding 
+
 •	Geometric Location (Coordinates) 
+
 •	Geo Local Area location
+
 •	Geo Point 2D Coordinates
+
+
 Scope: The project will focus on the following key areas:
+
 •	Data Security: Analyzing existing datasets to assess the levels of security being applied, data encryption, decryption, and key management access.
+
 •	Data Governance: Developing new pipelines, using visual ETL, checking for failed and passed quality checks and data quality rule applications.
+
 •	Data Monitoring: Establishing ongoing monitoring processes and dashboards to track data quality metrics using alarms, and thresholds.
+
 •	Training and Awareness: Creating training programs for staff on data quality best practices.
+
+
 Methodology:
-1-	Data Analysis:
-o	Business Question queries using SQL and Amazon Athena.
+
+1-	Data Analysis: Business Question queries using SQL and Amazon Athena.
+
 2-	Creating a Symmetric Key with a key management system and enabling default encryption and bucket versioning.
-3-	Bucket Replication:
-o	New bucket folders for the quality check results in AWS S3.
+
+3-	Bucket Replication: New bucket folders for the quality check results in AWS S3.
+
 4-	Governance implementation using quality check, quality rules and Visual ETL techniques in AWS Glue
 5-	AWS Cloudwatch monitoring dashboard, custom line graphs, alarm, and threshold implementation, Amazon SNS, and lastly, cloud trail log for all user activities.
 6-Training and Best Practices: Train all City Data Center staff and operations teams and implement best practices in DAP operations based on AWS Pillar recommendations like operational excellence, security, reliability, performance efficiency, and lastly, cost optimization.
@@ -145,8 +224,7 @@ Dataset: The three University Datasets provide insight using several specific va
 •	Complaint List- (Complaints made, status of complaints, community member ID, date of complaints)
 
 Methodology:
-1-	Data Collection and Preparation:
-o	Download the dataset from the University data portal in CSV format and load the dataset using Microsoft Excel.
+1-	Data Collection and Preparation: Download the dataset from the University data portal in CSV format and load the dataset using Microsoft Excel.
 o	Perform initial data cleaning, which includes handling missing values, correcting data types, and renaming columns for clarity.
 2-	Data Profiling:
 o	Patterns, Outliers, and the distribution of the data will be identified.
