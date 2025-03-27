@@ -1,6 +1,9 @@
 # Data-Analyst-Ibikunmi
 # PROJECTS DONE FOR CITY OF VANCOUVER (COV) & UNIVERSITY CANADA WEST (UCW)
+# CITY OF VANCOUVER DRAW.IO DESIGN FILE![City of Vancouver AWS DAP 2](https://github.com/user-attachments/assets/cb4c6213-59f4-4564-a5a4-c4a63bd98328)
+
 # Project 1: Exploratory Data Analysis (COV)
+
 Project Description: Exploratory Data Analysis (EDA) on City of Vancouver Rental Standards- Current Issues Dataset
   
 Project Title: The Vancouver Rental Standards and Current Issues Data Analysis using AWS Cloud Services
@@ -19,11 +22,13 @@ Dataset: The City of Vancouver Dataset provides insight using some specific vari
 •	Geo Point 2D Coordinates
 
 Methodology:
-- Data Collection and Preparation:
+- Data Collection and Preparation:![Screenshot 2025-02-28 184239](https://github.com/user-attachments/assets/1a76275c-7c50-4a8e-96e0-8ad0e51f6d5e)
+
 - Download the dataset from the City of Vancouver data portal in CSV format and load the dataset using Microsoft Excel.
 - Perform initial data cleaning, which includes handling missing values, correcting data types, and renaming columns for clarity.
   
-1-	Data Profiling:
+1-	Data Profiling:![Screenshot 2025-03-01 225112](https://github.com/user-attachments/assets/fe219eda-1794-477d-b42a-365ab2daa9bb)
+
 - Patterns, Outliers, and the distribution of the data will be identified.
   
 2-	Data Cataloging 
@@ -76,13 +81,16 @@ Dataset: The City of Vancouver Dataset provides insight using some specific vari
 
 Methodology:
 
-1-	Data Cataloging
+1-	Data Cataloging ![Screenshot 2025-03-04 182553](https://github.com/user-attachments/assets/78a16d7e-c4c7-4b9f-a910-deb631bd1918)
 
-2-	Data Visualization
 
-3-	Data Summarization
+2-	Data Visualization ![Screenshot 2025-03-04 195921](https://github.com/user-attachments/assets/9d6eaf41-c623-4e28-aa1a-73ecdb5a8723)
 
-4-	Business Question SQL Queries
+
+3-	Data Summarization ![Screenshot 2025-03-04 200403](https://github.com/user-attachments/assets/c20b356c-046d-413d-ad7a-8590917e4712)
+
+
+4-	Business Question SQL Queries 
 
 
 Tools and Technologies:
@@ -93,7 +101,11 @@ Tools and Technologies:
 
 •	AWS Glue DataBrew
 
-•	Amazon Athena
+•	Amazon Athena 
+![Screenshot 2025-03-05 173645](https://github.com/user-attachments/assets/b43e4713-45c6-4da8-a9b7-63af253c22ae)
+![Screenshot 2025-03-05 173631](https://github.com/user-attachments/assets/69d7e38f-2c61-48de-9ef9-64150b484836)
+![Screenshot 2025-03-05 173613](https://github.com/user-attachments/assets/d6bdc755-2390-4ee3-9843-c69cebf1b3e6)
+
 
 
 Deliverables:
@@ -103,7 +115,8 @@ Deliverables:
 •	Reports on the trends in issues businesses face in the City of Vancouver 
 
 
-# Project 3: Data Wrangling (COV)
+# Project 3: Data Wrangling (COV)![Screenshot 2025-03-02 214841](https://github.com/user-attachments/assets/d033b738-7b0c-4c78-a8d1-a949b466afe4)
+
 Project Description: Data Wrangling for City of Vancouver Rental Standards- Current Issues Dataset
 
 Project Title: The Vancouver Rental Standards and Current Issues Data Wrangling using AWS Cloud Services 
@@ -144,7 +157,8 @@ Methodology:
 
 Tools and Technologies:
 
-•	AWS Glue DataBrew 
+•	AWS Glue DataBrew ![Screenshot 2025-03-04 201534](https://github.com/user-attachments/assets/c1048257-3ce2-4fdd-ba28-22d62a944684)
+
 
 •	Amazon EC2 Instances 
 
@@ -155,7 +169,10 @@ Deliverables:
 •	A comprehensive report documenting the data wrangling process, including challenges encountered, methods employed, and final dataset characteristics.
 
 
-# Project 4: Data Quality Control (COV)
+# Project 4: Data Quality Control (COV)![Cloudtrail](https://github.com/user-attachments/assets/14e4e8a2-4c98-4248-9175-3a70301a56cf)
+![All alarms](https://github.com/user-attachments/assets/b13dcc24-a4d0-4d0d-ab13-5714f1c06420)
+![Alarms in MCR dashboard](https://github.com/user-attachments/assets/21c3ab96-29a4-4a56-b61a-a11af050828e)
+
 Project Description: Data Quality Control Initiative for City of Vancouver Rental Standards- Current Issues Dataset
 
 Project Title: Implementation of Data Quality Control Measures at the City of Vancouver Data Center Portal to ensure confidentiality, adequate protection, and integrity of the data.
@@ -185,7 +202,9 @@ Dataset: The City of Vancouver Dataset provides insight using some specific vari
 
 Scope: The project will focus on the following key areas:
 
-•	Data Security: Analyzing existing datasets to assess the levels of security being applied, data encryption, decryption, and key management access.
+•	Data Security: Analyzing existing datasets to assess the levels of security being applied, data encryption, decryption, and key management access![Raw Default Encryption](https://github.com/user-attachments/assets/9cba2a97-bc77-4914-a98c-9ca3d9320fa8)
+![Raw Bucket version](https://github.com/user-attachments/assets/64faf3bd-079b-4334-b3b0-31b52a0d5590)
+.
 
 •	Data Governance: Developing new pipelines, using visual ETL, checking for failed and passed quality checks and data quality rule applications.
 
@@ -198,13 +217,26 @@ Methodology:
 
 1-	Data Analysis: Business Question queries using SQL and Amazon Athena.
 
-2-	Creating a Symmetric Key with a key management system and enabling default encryption and bucket versioning.
+2-	Creating a Symmetric Key with a key management system and enabling default encryption and bucket versioning.![Housing Key Management](https://github.com/user-attachments/assets/2f83a394-d0c9-4c67-9d58-d259aeabc4d2)
+
 
 3-	Bucket Replication: New bucket folders for the quality check results in AWS S3.
+![trf replication rule](https://github.com/user-attachments/assets/5bb8d77d-15f9-4787-b0fb-91709437992b)
+![raw replication rule](https://github.com/user-attachments/assets/080e3c9e-eea2-4cb1-aa94-2d92c0ece45c)
+![cur replication rule](https://github.com/user-attachments/assets/5a7ae11a-6c0b-4dce-9be7-4f4aa463efda)
 
-4-	Governance implementation using quality check, quality rules and Visual ETL techniques in AWS Glue
+
+4-	Governance implementation using quality check, quality rules and Visual ETL techniques in AWS Glue 
+![Visual ETL](https://github.com/user-attachments/assets/caa48de1-8b64-44a8-af25-dc03c7571a60)
+![Passed Data quality](https://github.com/user-attachments/assets/9030dd80-cf64-4d31-b507-1d51d24cc1d6)
+![Failed data quality](https://github.com/user-attachments/assets/0485284c-4926-48b0-b43c-233007751b81)
+
 
 5-	AWS Cloudwatch monitoring dashboard, custom line graphs, alarm, and threshold implementation, Amazon SNS, and lastly, cloud trail log for all user activities.
+![alarm threshold cur](https://github.com/user-attachments/assets/6fb0a4e1-765c-48cc-adfa-17688d323798)
+![Alarm and Threshold TRF](https://github.com/user-attachments/assets/905dea8e-2608-48fd-a79e-242b3db8bd37)
+![Alarm and Threshold Raw](https://github.com/user-attachments/assets/46b690c2-5fb9-4c14-859a-cc878dae6ecc)
+
 
 6-Training and Best Practices: Train all City Data Center staff and operations teams and implement best practices in DAP operations based on AWS Pillar recommendations like operational excellence, security, reliability, performance efficiency, and lastly, cost optimization.
 
@@ -224,6 +256,8 @@ Tools and Technologies:
 
 Timeline:
 The projects listed above will empower the City of Vancouver data center to enhance its data integrity and reliability, resulting in improved decision-making, operational efficiency, and compliance with regulatory requirements. It lasted for a period of 11 weeks from start to completion.
+
+# University Canada West DRAW.IO Design File ![Screenshot 2025-03-26 230519](https://github.com/user-attachments/assets/fdcb0f59-ac95-4be0-a4d6-3ce3a3a01eff)
 
 # Project 5: Exploratory Data Analysis (UCW)
 Project Description: Exploratory Data Analysis (EDA) Initiative for University Canada West Registrar’s Office Students rights and responsibilities Dataset
