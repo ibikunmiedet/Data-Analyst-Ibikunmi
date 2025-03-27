@@ -1,11 +1,11 @@
 # Data-Analyst-Ibikunmi
 # PROJECTS DONE FOR CITY OF VANCOUVER (COV) & UNIVERSITY CANADA WEST (UCW)'
 # Project 1: Exploratory Data Analysis (COV)
-- Project Description: Exploratory Data Analysis (EDA) on City of Vancouver Rental Standards- Current Issues Dataset
+Project Description: Exploratory Data Analysis (EDA) on City of Vancouver Rental Standards- Current Issues Dataset
   
-- Project Title: The Vancouver Rental Standards and Current Issues Data Analysis using AWS Cloud Services
+Project Title: The Vancouver Rental Standards and Current Issues Data Analysis using AWS Cloud Services
   
-- Objective: The main goal of the project is to effectively analyze the City of Vancouver’s -rental standards dataset, in order to identify issues like the total outstanding housing unit payments my business operators in the metro-Vancouver area, identify each business key location addresses, unique business URL, total building units occupied by each business by coordinate points. This will provide information to improve housing standards, regulate rental prices and improve policy making in the city.
+Objective: The main goal of the project is to effectively analyze the City of Vancouver’s -rental standards dataset, in order to identify issues like the total outstanding housing unit payments my business operators in the metro-Vancouver area, identify each business key location addresses, unique business URL, total building units occupied by each business by coordinate points. This will provide information to improve housing standards, regulate rental prices and improve policy making in the city.
 - Dataset: The City of Vancouver Dataset provides insight using some specific variables, including details such as:  
 • Name of Business Operator
 •	Detailed Business URL
@@ -17,19 +17,23 @@
 •	Geo Local Area location
 •	Geo Point 2D Coordinates
 
-- Methodology:
+Methodology:
 - Data Collection and Preparation:
 - Download the dataset from the City of Vancouver data portal in CSV format and load the dataset using Microsoft Excel.
 - Perform initial data cleaning, which includes handling missing values, correcting data types, and renaming columns for clarity.
   
 1-	Data Profiling:
 - Patterns, Outliers, and the distribution of the data will be identified.
+  
 2-	Data Cataloging 
-o	Conversion of data and transformation of data structures.
-3-	 Summarization:
-o	Understanding key data characteristics, and performing analysis for insights
+- Conversion of data and transformation of data structures.
+  
+3-      Summarization:
+- Understanding key data characteristics, and performing analysis for insights
+  
 4-	Data Analysis:
-o	Looking at how the analysis done changes the data, and what we can infer from the results
+- Looking at how the analysis done changes the data, and what we can infer from the results
+  
 Tools and Technologies:
 •	AWS S3 for Data Storage and ingestion 
 •	AWS EC2 Instances
