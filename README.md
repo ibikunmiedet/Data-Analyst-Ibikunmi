@@ -249,7 +249,8 @@ Tools and Technologies:
 
 •	AWS Cloudwatch 
 
-•	AWS Cloudtrail
+•	AWS Cloudtrail![Cloudtrail event history](https://github.com/user-attachments/assets/0bfa0a77-54b3-4660-a6fb-e7162af195bb)
+
 
 •	AWS Key Management System
 
@@ -321,9 +322,14 @@ Dataset: The three University Datasets provide insight using several specific va
 
 Methodology:
 
-1-	Data Cataloging
+1-	Data Cataloging ![UCW Data Catalog tables](https://github.com/user-attachments/assets/5d6ceb02-467d-4f50-b59c-8ba10355f560)
 
-2-	Data Visualization
+
+2-	Data Visualization 
+![UCW Community summariztion](https://github.com/user-attachments/assets/84fcbc74-0c2a-4e96-8eaa-b0e63d21287f)
+![UCW Misconduct summarization](https://github.com/user-attachments/assets/839a23e2-bf96-4207-a7c0-a856c78d85ae)
+
+
 
 3-	Data Summarization
 
@@ -382,9 +388,13 @@ Objective: The primary objective of this project is to establish a comprehensive
 
 Scope: The project will focus on the following key areas:
 
-•	Data Security: Analyzing existing datasets to assess the levels of security being applied, data encryption, decryption, and key management access.
+•	Data Security: Analyzing existing datasets to assess the levels of security being applied, data encryption, decryption, and key management access.![UCW KMS](https://github.com/user-attachments/assets/ae1da887-fff3-43bd-8114-2717e6f4f084)
 
-•	Data Governance: Developing new pipelines, using visual ETL, checking for failed and passed quality checks and data quality rule applications.
+
+•	Data Governance: Developing new pipelines, using visual ETL, checking for failed and passed quality checks and data quality rule applications.![UCW Visual ETL QC](https://github.com/user-attachments/assets/c1011796-9663-4294-8b4f-fb6cbff95a92)
+![UCW Passed quality check](https://github.com/user-attachments/assets/55260062-9223-4051-ad2a-708641af00b3)
+![UCW Failed QC](https://github.com/user-attachments/assets/7ea70f84-b43d-4e5d-9c06-b3423c2b6de5)
+
 
 •	Data Monitoring: Establishing ongoing monitoring processes and dashboards to track data quality metrics using alarms, and thresholds.
 
@@ -394,7 +404,8 @@ Methodology:
 
 1-	Data Analysis: Business Question queries using SQL and Amazon Athena.
 
-2-	Creating a Symmetric Key with a key management system and enabling default encryption and bucket versioning.
+2-	Creating a Symmetric Key with a key management system and enabling default encryption and bucket versioning.![UCW KMS](https://github.com/user-attachments/assets/16a41abb-17fa-45a9-b3a2-9271646563ff)
+
 
 3-	Bucket Replication: New bucket folders for the quality check results in AWS S3.
 
@@ -410,11 +421,14 @@ Tools and Technologies:
 
 •	AWS Glue
 
-•	AWS Cloudwatch
+•	AWS Cloudwatch ![UCW Alarm](https://github.com/user-attachments/assets/b501b65e-2b15-4807-b1a6-f59652477746)
 
-•	AWS Cloudtrail
+
+•	AWS Cloudtrail ![UCW Cloudtrail](https://github.com/user-attachments/assets/13242111-3f72-4913-869a-b1672f056ba9)
+
 
 •	AWS Key Management System
+
 
 
 # Brief Report on City of Vancouver Projects (Similar implementations were done with University Canada West)
@@ -464,7 +478,8 @@ In output settings 2, we use PARQUET for large datasets, and all the information
 # Lifecycle Configuration 
 The Lifecycle rules were not changed since the dataset in the S3 buckets is accessed on a monthly basis. Therefore, the standard class is appropriate for the specific dataset since it is frequently accessed.
 
-# The housing-user-log file
+# The housing-user-log file![Screenshot 2025-03-02 232225](https://github.com/user-attachments/assets/fdaf8968-4923-440d-a186-7623c58ce7c2)
+
  /rentalstandards/housing-user-log/year=25/quarter=01/month=01/day=20/server=HSVS-Edet
 The log file will be ingested, it has the click stream data, and the ingestion rate of the dataset is daily. It was stored in the S3 housing-raw-edet bucket. No lifecycle rule was created for it because the dataset is accessible daily.
 A new HSVS-Edet EC2 instance was launched for this ingestion. The same procedures as the last instance launch were followed. The difference in this case is that this computer is available for two groups in the network settings. The operation team connects using the remote desktop, while the end users connect using a browser. We created a website for the end user to connect using simple http, https protocol.
