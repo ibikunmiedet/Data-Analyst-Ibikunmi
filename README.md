@@ -1,5 +1,5 @@
 # Data-Analyst-Ibikunmi
-# PROJECTS DONE FOR CITY OF VANCOUVER (COV) & UNIVERSITY CANADA WEST (UCW)'
+# PROJECTS DONE FOR CITY OF VANCOUVER (COV) & UNIVERSITY CANADA WEST (UCW)
 # Project 1: Exploratory Data Analysis (COV)
 Project Description: Exploratory Data Analysis (EDA) on City of Vancouver Rental Standards- Current Issues Dataset
   
